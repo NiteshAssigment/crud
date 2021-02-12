@@ -9,18 +9,6 @@ app.use(express.json()) ;
 
 //create a new students 
 
-// app.post("/students",(req,res) => {
-//     console.log(req.body);
-    
-//     const user = new Student(req.body);
-    
-//     user.save().then((result) => {
-//         res.status(201).send(user);
-//     }).catch((err) => {
-//         res.status(400).send(err);
-//     })
- 
-// })
 
 app.post("/students", async(req,res) => {
 
